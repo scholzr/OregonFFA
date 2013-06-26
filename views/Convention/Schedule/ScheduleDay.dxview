@@ -1,0 +1,7 @@
+<div data-options="dxView : { name: 'ScheduleDay', title: 'Schedule by Day' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate : { name: 'item' }" data-bind="text: name, dxAction: page"></div>
+        </div>
+    </div>
+</div>

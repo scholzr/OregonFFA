@@ -1,0 +1,11 @@
+<div data-options="dxView : { name: 'StateConvention', title: 'State Convention' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div data-bind="dxList: { dataSource: links }">
+            <div data-options="dxTemplate : { name: 'item' } ">
+                <div data-bind="action: page">
+                    <div data-bind="text: title, dxAction: page"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

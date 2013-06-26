@@ -1,0 +1,14 @@
+﻿.officer-image-box {
+    float: left; 
+    margin-right: 15px;
+}
+.officer-image-box img {
+    width: 36px;
+    height: 36px;
+}
+.officer-name {
+    white-space: pre-wrap;
+}
+.officer-chapter {
+    font-size: 12px;
+}

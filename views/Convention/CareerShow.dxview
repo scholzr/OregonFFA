@@ -1,0 +1,14 @@
+<div data-options="dxView : { name: 'CareerShow', title: 'Career Show' } " >
+    <div data-bind="dxCommand: {title: 'Search', placeholder: 'Search...', location: 'create', icon: 'find', action: undefined }"></div>
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxTextbox: { mode: 'search', value: '' }"></div>
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate:{name:'item'}">
+                <div data-bind="">
+                    <strong><span data-bind="text: $data.name"></span></strong><br/>
+                    <span data-bind="text: $data.location"></span>
+                </div>
+            </div>   
+        </div>    
+    </div>
+</div>

@@ -1,0 +1,5 @@
+<div data-options="dxView : { name: 'Photos', title: 'Photos' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxGallery: { dataSource: galleryData, showNavButtons: true}"></div>
+    </div>
+</div>

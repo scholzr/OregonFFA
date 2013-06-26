@@ -1,0 +1,17 @@
+<div data-options="dxView : { name: 'Officers', title: 'Officers' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate : { name: 'item' } ">
+                <div>
+                    <div style="float: left; margin-right: 15px;">
+                        <img data-bind="attr: {src: $data.Image, alt: $data.Name}" style="width: 60px; height: 60px;" />
+                    </div>
+                    <div>
+                        <div data-bind="text: $data.Name" style="font-weight: bold"></div>
+                        <div data-bind="text: $data.Chapter"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

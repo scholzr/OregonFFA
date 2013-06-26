@@ -1,0 +1,6 @@
+﻿/* Put css styles for StateConvention view here */
+.tile {
+  border-radius: .5em;
+  text-align: center;
+  background: gray;
+}

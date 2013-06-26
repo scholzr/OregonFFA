@@ -1,0 +1,5 @@
+<div data-options="dxView : { name: 'InteractiveMap', title: 'Interactive Map' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxMaps: { markers: markers, location: '2755 NE 27th St, Bend, OR', width: '100%', height: '100%', zoom: 13 }"></div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div data-options="dxView : { name: 'FoodShopping', title: 'Food & Shopping' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxList: { dataSource: dataSource, grouped: true }">
+            <div data-options="dxTemplate:{name:'group'}">
+                <b><span data-bind="text: $data.key"></span></b>
+            </div>  
+            <div data-options="dxTemplate:{name:'item'}">
+                <div data-bind="">
+                    <strong><span data-bind="text: $data.name"></span></strong><br/>
+                    <span data-bind="text: $data.address"></span>; <span data-bind="text: $data.city"></span>, <span data-bind="    text: $data.state"></span> <span data-bind="    text: $data.zip"></span><br/>
+                    <span data-bind="text: $data.phone"></span>
+                </div>
+            </div>   
+        </div>    
+    </div>
+</div>
