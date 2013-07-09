@@ -11,7 +11,8 @@
                         city: "Bend",
                         state: "OR",
                         zip: "97701",
-                        phone: "(123) 456-7890"
+                        phone: "(123) 456-7890",
+                        link: '#FoodShoppingDetail'
                     },
                     {
                         name: "Place 2",
@@ -19,7 +20,8 @@
                         city: "Bend",
                         state: "OR",
                         zip: "97701",
-                        phone: "(123) 456-7890"
+                        phone: "(123) 456-7890",
+                        link: '#FoodShoppingDetail'
                     },
                     {
                         name: "Place 3",
@@ -27,7 +29,8 @@
                         city: "Bend",
                         state: "OR",
                         zip: "97701",
-                        phone: "(123) 456-7890"
+                        phone: "(123) 456-7890",
+                        link: '#FoodShoppingDetail'
                     },
                   ]
               },
@@ -40,7 +43,8 @@
                         city: "Bend",
                         state: "OR",
                         zip: "97701",
-                        phone: "(123) 456-7890"
+                        phone: "(123) 456-7890",
+                        link: '#FoodShoppingDetail'
                     },
                     {
                         name: "Place 5",
@@ -48,7 +52,8 @@
                         city: "Bend",
                         state: "OR",
                         zip: "97701",
-                        phone: "(123) 456-7890"
+                        phone: "(123) 456-7890",
+                        link: '#FoodShoppingDetail'
                     },
                     {
                         name: "Place 6",
@@ -56,7 +61,8 @@
                         city: "Bend",
                         state: "OR",
                         zip: "97701",
-                        phone: "(123) 456-7890"
+                        phone: "(123) 456-7890",
+                        link: '#FoodShoppingDetail'
                     },
                   ]
               },

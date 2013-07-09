@@ -1,0 +1,25 @@
+<div data-options="dxView : { name: 'FoodShoppingDetail', title: 'Flatbread  Pizza' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <img style="padding: 5px; width: 150px; height: 135px; float: right;" src="http://www.flatbreadpizza.com/images/cssimg/logo.png">
+        <h2>Address</h2>
+        <p>375 SW Powerhouse Dr. Suite 130<br>
+            Bend, OR 97702</p>
+        <h2>Phone</h2>
+        <p><a href="tel:5417280600">(541) 728-0600</a></p>
+        <h2>Website</h2>
+        <p><a href="http://www.flatbreadpizza.com/">www.flatbreadpizza.com/</a></p>
+        <p></p>
+        <h2>Hours</h2>
+        <p>
+            Mon-Thurs: 11-9<br>
+            Fri-Sat: 11-10<br>
+            Sun: 11-9
+        </p>
+        <p>&nbsp;</p>
+        <p style="text-align:center;"><a href="#">View Menu</a></p>
+        <p style="text-align:center;"><a href="#">View Specials</a></p>
+        <p>&nbsp;</p>
+        <div data-bind="dxMaps: { markers: markers, location: '375 SW Powerhouse Dr., Bend, OR', width: '100%', height: '300px', zoom: 13 }"></div>
+
+    </div>
+</div>

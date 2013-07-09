@@ -32,6 +32,21 @@ window.FFAApp = $.extend(true, window.FFAApp, {
         "action": "#Careers",
         "icon": "careers"
       },
+      {
+        "title": "CareersList",
+        "action": "#CareersList",
+        "icon": "careerslist"
+      },
+      {
+        "title": "CareersCategory",
+        "action": "#CareersCategory",
+        "icon": "careerscategory"
+      },
+      {
+        "title": "FoodShoppingDetail",
+        "action": "#FoodShoppingDetail",
+        "icon": "foodshoppingdetail"
+      }
     ]
   }
 });

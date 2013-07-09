@@ -1,0 +1,16 @@
+<div data-options="dxView : { name: 'CareersList', title: 'Browse Jobs' } " >
+    <div data-bind="dxCommand: { title: 'Search', placeholder: 'Search...', location: 'create', icon: 'find', action: undefined }"></div>
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxTextbox: { mode: 'search', value: '' }"></div>
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate:{name:'item'}">
+                <div data-bind="">
+                    <span data-bind="text: $data.name"></span> - <strong><span data-bind="text: $data.company"></span></strong><br/>
+                    <em><span data-bind="text: $data.category"></span></em><br/>
+                    <span data-bind="text: $data.location"></span> (<span data-bind="text: $data.region"></span>)<br/>
+                    <span data-bind="text: $data.openDate"></span> - <span data-bind="text: $data.closeDate"></span>
+                </div>
+            </div>   
+        </div>    
+    </div>
+</div>

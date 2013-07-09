@@ -1,7 +1,24 @@
 ﻿FFAApp.Careers = function (params) {
 
     var viewModel = {
-//  Put the binding properties here
+        dataSource: [
+              {
+                  name: "Browse all jobs",
+                  view: "#CareersList",
+              },
+              {
+                  name: "Jobs by category",
+                  view: "#CareersCategory",
+              },
+              {
+                  name: "Jobs by company",
+                  view: "ScheduleDay",
+              },
+              {
+                  name: "Jobs by location",
+                  view: "ScheduleDay",
+              },
+        ]
     };
 
     return viewModel;

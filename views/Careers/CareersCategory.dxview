@@ -1,0 +1,7 @@
+<div data-options="dxView : { name: 'CareersCategory', title: 'Job Categories' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate : { name: 'item' }" data-bind="text: name "></div>
+        </div>
+    </div>
+</div>
